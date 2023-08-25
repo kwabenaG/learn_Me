@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Run Flutter analyze to check for static analysis issues
+flutter analyze
+
+# Run formatting check using Dart's formatter
+flutter format -n --set-exit-if-changed
+
+# Run unit tests using Flutter's test runner
+#flutter test
+
+# If any of the above commands failed, exit with a non-zero status code
+if [ $? -ne 0 ]; then
+  echo "Pre-commit checks failed, please fix the issues before committing."
+  exit 1
+fi

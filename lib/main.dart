@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:learn_me/pages/welcome/welcome.dart';
 
 void main() {
   runApp(const ProviderScope(child: MyApp()));
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
             seedColor: const Color.fromARGB(255, 205, 193, 226)),
         useMaterial3: true,
       ),
-      home: const MyHomePage(),
+      home: const WelcomePage(),
     );
   }
 }
