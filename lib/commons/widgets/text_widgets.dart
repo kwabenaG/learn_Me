@@ -1,0 +1,1 @@
+// text widget that handles the text
