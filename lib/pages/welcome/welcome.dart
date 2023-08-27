@@ -18,7 +18,9 @@ class WelcomePage extends ConsumerWidget {
             Container(
                 margin: const EdgeInsets.only(top: 15),
                 child: const Text("AA")),
-            Container(child: [])
+            Container(
+                margin: const EdgeInsets.only(top: 15),
+                child: const Text("Something here"))
           ]),
         ]),
         const Positioned(child: Text("Widget One"))
