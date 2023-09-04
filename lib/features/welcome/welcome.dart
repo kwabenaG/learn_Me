@@ -14,7 +14,7 @@ class WelcomePage extends ConsumerWidget {
         PageView(scrollDirection: Axis.horizontal, children: [
           Column(children: [
             // add image here
-            const Text("one"),
+            const Text("add image here"),
             Container(
                 margin: const EdgeInsets.only(top: 15),
                 child: const Text("AA")),
